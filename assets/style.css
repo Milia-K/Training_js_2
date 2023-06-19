@@ -1,0 +1,43 @@
+.container {
+    max-width: 50%;
+    margin: 50px auto;
+    background: #f1f1f1;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.slider-prev{
+    border: 1px solid rgb(146, 19, 19);
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: .9rem;
+}
+.slider-next{
+    border: 1px solid rgb(146, 19, 19);
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: .9rem;
+}
+
+.slider {
+    border: 1px solid black;
+    width: 192px;
+    height: 100%;
+    margin: 20px auto;
+    overflow: hidden;
+}
+
+.slider-line {
+    width: 384px;
+    height: 100%;
+    display: flex;
+    position: relative;
+    left: 0;
+}
